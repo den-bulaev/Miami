@@ -58,6 +58,12 @@
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      transition-timing-function: cubic-bezier(1,-1.62,1,1.98);
+    }
 
     @media (max-width: 320px) {
       width: 131px;
